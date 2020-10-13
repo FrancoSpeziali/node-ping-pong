@@ -151,7 +151,9 @@ Research: [Math.random()](https://developer.mozilla.org/en-US/docs/Web/JavaScrip
 
 3. If the random value is above `maximumTime`, the server will lose and respond with ` 500` (server) error. The value `lastRequestTimestamp` should be set to `null`.
 
-4. For added realism, you can wrap the responses with `setTimeout` to simulate the delay
+4. OPTIONAL: For added realism, you can wrap the responses with `setTimeout` to simulate the delay
+
+> Note: If you use `setTimeout`, don't forget to create a new timestamp and set it to the `lastRequestTimestamp` AFTER the `setTimeout` completes, otherwise you will include the delay from the server in this value - Player 1 will lose!
 
 ## Assignment 7 - Test it again!
 
