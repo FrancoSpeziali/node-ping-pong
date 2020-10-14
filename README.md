@@ -49,7 +49,7 @@ This project expects that you have knowledge on the following:
 
 ## Assignments
 
-For the backend part of this assignment, you are expected to write your code in the file `server-solution.js`
+For the backend part of this assignment, you are expected to write your code in the file `server.js`
 
 For the frontend part of this assignment, you are expected to write your code in a separate project.
 
@@ -72,7 +72,7 @@ Research: [response.send()](http://expressjs.com/en/4x/api.html#res.send)
 Let's perform a simple test to see if we can connect to our server.
 
 1. In the `console`, run the command:
-    `nodemon server-solution.js` or `node server-solution.js`
+    `nodemon server.js` or `node server.js`
     
     > Hint: The difference between `nodemon` and `node` is that `nodemon` will automatically reload / reserve your file when you make changes. `node` will not.
 
@@ -127,7 +127,7 @@ We check if the difference between `lastRequestTimestamp` and `newRequestTimesta
 Let's perform another test to see if our game works.
 
 1. In the `console`, run the command:
-    `nodemon server-solution.js` or `node server-solution.js`
+    `nodemon server.js` or `node server.js`
 
 2. Once your server is running, you can connect to it with one of your API testing tools (Postman, Insomnia)
 
